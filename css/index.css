@@ -189,7 +189,7 @@ header {
     font-weight: 700;
 }
 
-.category-items {
+.category-items, .items-container {
     width: 80%;
     margin: 50px 10%;
     display: flex;
@@ -239,6 +239,7 @@ header {
 
 .item-container{
     width: 250px;
+    margin: 10px;
 }
 
 .item-image{
@@ -312,4 +313,29 @@ header {
     border: none;
     padding: 5px 15px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.bag-item-count{
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color:black;
 }
