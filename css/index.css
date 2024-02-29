@@ -99,6 +99,9 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
 .myntra_home {
     height: 45px;
