@@ -92,6 +92,11 @@ a.action_container:link {
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
     box-sizing: border-box;
 }
+
+main{
+    margin-top: 50px;
+}
+
 header {
     display: flex;
     background-color: #ffffff;
@@ -102,6 +107,11 @@ header {
     /* position: fixed;
     top: 0;
     width: 100%; */
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 10;
 }
 .myntra_home {
     height: 45px;
@@ -247,6 +257,7 @@ header {
 
 .item-image{
     width: 100%;
+    margin-top: 30px;
 }
 
 .rating{

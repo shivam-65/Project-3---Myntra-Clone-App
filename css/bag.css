@@ -22,6 +22,7 @@
   color: #282c3f;
   font-size: 13px;
   line-height: 1.42857143;
+  margin-top: 10px;
 }
 
 .bag-details-container {
@@ -73,6 +74,7 @@
 }
 
 .bag-item-container {
+  margin-top: 20px;
   margin-bottom: 8px;
   background: #fff;
   font-size: 14px;
